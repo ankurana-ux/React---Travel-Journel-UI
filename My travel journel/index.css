@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background: #F55A5A;
+}
+
+nav h3{
+    color: white;
+    margin-left: 10px;
+}
+
+.card-img{
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card-container{
+    display: flex;
+    margin: 40px;
+}
+
+
+.basic-information{
+    display: flex;
+}
+
+.links{
+    margin-left: 20px;
+}
+
+.card-mapicon{
+    height: 28px;
+    height: 28px;
+    object-fit: cover;
+}
+
+.basic-information{
+    align-items: center;
+    gap: 10px;
+}
+
+.date-text{
+    font-weight: 600;
+}
+
+.description-text{
+    font-weight: 400;
+    color: #656565;
+}
+
+.location{
+    font-weight: 200;
+    text-transform: uppercase;
+    
+}
+
+.map-link a {
+    text-decoration: underline;
+    color: #A3A3A3; /* Example color */
+    font-weight:lighter;
+}
